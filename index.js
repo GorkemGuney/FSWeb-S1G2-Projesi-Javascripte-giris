@@ -36,16 +36,15 @@ if (birinciDeger < ikinciDeger) {
 console.log(birinciDeger);
 
 
-/*
-Görev 1c - String bir değeri Number'a dönüştürün (puanlamaya dahil değildir)
 
-Aşağıdakileri yap:   
-   1. String tipinde ve değeri "1999" olan bir değişken oluşturun
-   2. Değeri "1999" olan bu String'i değeri 1999 olan bir integer'a dönüştürün
-   3. Sonucu Console'a yazdırın
+let stringDeger = "1999";
 
-   İPUCU: Number metoduna bakabilirsin
-*/
+
+let integerDeger = Number(stringDeger); 
+
+
+console.log(integerDeger);
+
 
 /*
 Görev 1d - Çarpma
