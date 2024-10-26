@@ -3,34 +3,38 @@
 /* TÜM CEVAPLARINI BİR FUNCTION İÇİNDE VERDİĞİNİZ EMİN OL (GÖREV 1D - GÖREV 6). AKSİ TAKTİRDE, OTOMATİK TEST SİSTEMİ ÇALIŞMAYACAKTIR. */
 
 // Görev 1a, 1b ve 1c puanlamaya dahil değildir
-
+S
 /*
 Bu görevleri yaparken, yazdığın kod'un doğru çıktı verdiğini kontrol etmek için console.log'u kullanmanı öneririz.
 Bunun için cevabı direk console'a logla veya çağırdığın fonksiyondan dönen değeri console'a logla.  
 Örneğin:  console.log(ornekFonksiyon(deger1,deger2))
 */
 
-/*
-Görev 1a - Ehliyet Yaşı (puanlamaya dahil değildir)
 
-Aşağıdakileri yap:   
-   1. surucuYasi isimli bir değişken yaz ve bir sayı ata.
-   2. Eğer yaş 18'den büyük ise Console'da true, değilse false değeri yazdırın.
+let surucuYasi = 20;
 
-   İPUCU: fonksiyon oluşturmaya gerek yok
-*/
 
-/*
-Görev 1b - Değerler (puanlamaya dahil değildir)
+if (surucuYasi > 18) {
+  console.log(true);
+} else {
+  console.log(false);
+}
 
-Aşağıdakileri yap:   
-   1. 2 değişken tanımla ve bunlara değerler ata (isimlendirme olarak birinciDeger ikinciDegeri kullanabilirsin)
-   2. 1. değeri 2. değer ile karşılaştıran bir koşul oluşturun
-   3. 2. adımdaki koşul doğru olduğunda 1. değeri değiştirin
-   4. 1. değeri Console'a yazdırın
 
-   İPUCU: fonksiyon oluşturmaya gerek yok
-*/
+
+
+let birinciDeger = 10; 
+let ikinciDeger = 15; 
+
+
+if (birinciDeger < ikinciDeger) {
+  
+  birinciDeger = 20; 
+}
+
+
+console.log(birinciDeger);
+
 
 /*
 Görev 1c - String bir değeri Number'a dönüştürün (puanlamaya dahil değildir)
